@@ -4,6 +4,7 @@ import Vue from 'vue'
 import vueRouter from 'vue-router'
 import vueResource from 'vue-resource'
 import App from './App'
+require('../semantic/dist/semantic.min.css')
 
 Vue.use(vueResource)
 Vue.use(vueRouter)
